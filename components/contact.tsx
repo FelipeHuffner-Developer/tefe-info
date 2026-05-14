@@ -18,7 +18,7 @@ export function Contact() {
         </div>
 
         {/* Contact Cards */}
-        <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto mb-12 md:mb-16">
+        <div className="flex justify-center gap-6 md:gap-8 max-w-4xl mx-auto mb-12 md:mb-16">
           {/* WhatsApp 1 */}
           <a
             href="https://wa.me/5597984502894"
@@ -32,25 +32,6 @@ export function Contact() {
               </div>
               <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">WhatsApp</h3>
               <p className="text-2xl md:text-3xl font-bold text-primary">(97) 98450-2894</p>
-              <Button className="mt-4 md:mt-6 bg-green-500 hover:bg-green-600 text-white">
-                Chamar no WhatsApp
-              </Button>
-            </div>
-          </a>
-
-          {/* WhatsApp 2 */}
-          <a
-            href="https://wa.me/5597981283734"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group"
-          >
-            <div className="p-6 md:p-8 bg-card rounded-2xl border border-border hover:border-primary/50 transition-all duration-300 text-center">
-              <div className="w-16 h-16 md:w-20 md:h-20 bg-green-500/10 rounded-full flex items-center justify-center mx-auto mb-4 md:mb-6 group-hover:bg-green-500/20 transition-colors">
-                <Phone className="w-8 h-8 md:w-10 md:h-10 text-green-500" />
-              </div>
-              <h3 className="text-lg md:text-xl font-bold text-foreground mb-2">WhatsApp</h3>
-              <p className="text-2xl md:text-3xl font-bold text-primary">(97) 98128-3734</p>
               <Button className="mt-4 md:mt-6 bg-green-500 hover:bg-green-600 text-white">
                 Chamar no WhatsApp
               </Button>
